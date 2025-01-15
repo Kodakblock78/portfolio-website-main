@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { BackgroundBeams } from "./ui/BackgroundBeams";
 import ShinyButton from "./ui/ShinyButton";
-const email = "Edw.forko@gmail.com"
+
 const Footer = () => {
   return (
     
@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="mt-16 p-10 border-t border-dark-200 dark:border-white/10 flex flex-col md:flex-row justify-between gap-10 md:gap-0">
           <div className="space-y-2.5">
             <h3 className="text-xl font-bold relative z-10">
-              Andrija Djordjevic
+              Ezekiel Forko
             </h3>
             <p className="text-dark-200/70 dark:text-stone-200/70 relative z-10">
               &copy; 2024 | All rights reserved.
@@ -58,50 +58,32 @@ const Footer = () => {
               <li className="text-lg font-semibold">Projects</li>
               <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
                 <Link
-                  href="https://github.com/andrijaweb/ecommerce-app"
+                  href="https://github.com/Kodakblock78/website-done-vrijdag"
                   target="_blank"
                 >
-                  Shoptidy
+                  Ezesshoes
                 </Link>
               </li>
-              <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
-                <Link
-                  href="https://github.com/andrijaweb/socialmedia-reactapp"
-                  target="_blank"
-                >
-                  SocialSphere
-                </Link>
-              </li>
-              <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
-                <Link
-                  href="https://github.com/andrijaweb/nextCut-app"
-                  target="_blank"
-                >
-                  NextCut
-                </Link>
-              </li>
-              <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
-                <Link href="/">NextFood</Link>
-              </li>
+              
             </ul>
 
             <ul className="space-y-2.5 relative z-10 text-sm sm:text-base">
               <li className="text-lg font-semibold">Socials</li>
               <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
                 <Link
-                  href="https://www.linkedin.com/in/andrija-djordjevic-a7b794282/"
+                  href="https://www.linkedin.com/in/ezekiel-forko-0ba589330/"
                   target="_blank"
                 >
                   LinkedIn
                 </Link>
               </li>
               <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
-                <Link href="https://github.com/andrijaweb" target="_blank">
+                <Link href="https://github.com/Kodakblock78" target="_blank">
                   Github
                 </Link>
               </li>
               <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
-                <Link href="/">Instagram</Link>
+                <Link href="https://www.instagram.com/ezekiel.wreh/">Instagram</Link>
               </li>
             </ul>
           </div>
