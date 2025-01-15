@@ -108,25 +108,25 @@ export const portfolioProjects = [
 export const tooltipItems = [
   {
     id: 1,
-    name: "Bogdan Aleksic",
-    designation: "Great job!",
+    name: "Jason Nasinovic",
+    designation: "Great job",
     image: "/imgs/avatars/bogdan.svg",
   },
   {
     id: 2,
-    name: "Djordje Djurovic",
+    name: "Noah Alipour",
     designation: "Incredibly responsible",
     image: "/imgs/avatars/djordje.jpeg",
   },
   {
     id: 3,
-    name: "Anthony Sean",
-    designation: "Highly recommended!",
+    name: "Bassim Louadi",
+    designation: "Great user experience",
     image: "/imgs/avatars/Anthony.jpg",
   },
   {
     id: 4,
-    name: "Alex Finn",
+    name: "jean deschamps",
     designation: "Enjoyable experience.",
     image: "/imgs/avatars/Alex.jpg",
   },
@@ -136,10 +136,10 @@ export const testimonialItems = [
   {
     id: 1,
     stars: 5,
-    name: "Alex Finn",
-    proffesion: "Lead Web Designer at knots.io",
+    name: "Jason Nasinovic",
+    proffesion: "Studying HAVO at Lingecollege",
     description:
-      "“Working with Andrija was a very smooth experience from start to finish.  He not only brings strong technical skills to front-end development, but his attention to detail and commitment to delivering pixel-perfect  designs made a huge difference in our project. He is enthusiastic in  suggesting improvements. Always ready to answer questions or provide  updates. If you're looking for a reliable developer who brings  creativity and efficiency to the table, Andrija is the right person!”",
+      "“Working with Ezekiel in a team was a very smooth experience from start to finish.  He not only brings strong communicative skills to the team he also has a great sense of attention to detail and commitment, this made a huge difference in our project. He is enthusiastic in  suggesting improvements. Always ready to answer questions or provide  updates. If you're looking for a reliable persom who brings  creativity and efficiency to the table, Ezekiel is the right person!”",
     image: "/imgs/avatars/Alex.jpg",
   },
   {

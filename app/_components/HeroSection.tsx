@@ -19,7 +19,7 @@ const HeroSection = () => {
       >
         <div className="flex flex-col justify-center items-center relative z-10 text-center">
           <p className="uppercase font-bold text-sm tracking-widest">
-            Based In Serbia
+            Based In 🇳🇱, Amsterdam
           </p>
           {/* <h1 className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-tight tracking-wide">
             Quality Design &{" "}
@@ -30,7 +30,7 @@ const HeroSection = () => {
             className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-snug tracking-wide"
           />
           <p className="pt-5 pb-8 text-sm sm:text-base md:text-lg text-dark-200 dark:text-stone-200/70">
-            Hi, I&apos;m Andrija, I create intuitive, visually stunning and
+            Hi, I&apos;m Ezekiel, I create intuitive and
             highly functional web applications.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4">
@@ -42,10 +42,7 @@ const HeroSection = () => {
               download
               className="flex items-center gap-2.5 group"
             >
-              <Download className="text-primary" />
-              <span className="group-hover:text-white/70 transition-colors duration-200 font-semibold">
-                Download CV
-              </span>
+              
             </a>
           </div>
           <div className="flex flex-row items-center justify-center mb-10 w-full mt-8">

@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { BackgroundBeams } from "./ui/BackgroundBeams";
 import ShinyButton from "./ui/ShinyButton";
-
+const email = "Edw.forko@gmail.com"
 const Footer = () => {
   return (
+    
     <div
       className="flex flex-col justify-center antialiased relative border border-dark-300 rounded-xl mb-5"
       id="contact"
@@ -13,7 +14,7 @@ const Footer = () => {
           <h1 className="text-5xl font-bold max-w-2xl leading-[110%] relative z-10">
             Like what you see? Reach out{" "}
             <Link
-              href="mailto:andrijawebd@gmail.com"
+              href="mailto:edw.forko@gmail.com"
               className="text-primary hover:text-primary/80 border-b-2 border-primary hover:border-primary/80 transition-colors duration-200"
             >
               via email
@@ -22,7 +23,7 @@ const Footer = () => {
           </h1>
 
           <ShinyButton>
-            <Link href="mailto:andrijawebd@gmail.com">Schedule call</Link>
+            <Link href="mailto:edw.forko@gmail.com">Schedule call</Link>
           </ShinyButton>
         </div>
 
