@@ -58,7 +58,7 @@ const Footer = () => {
               <li className="text-lg font-semibold">Projects</li>
               <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
                 <Link
-                  href="https://github.com/Kodakblock78/website-done-vrijdag"
+                  href="https://ezes.nl"
                   target="_blank"
                 >
                   Ezesshoes

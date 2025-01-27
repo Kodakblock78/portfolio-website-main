@@ -19,7 +19,7 @@ const HeroSection = () => {
       >
         <div className="flex flex-col justify-center items-center relative z-10 text-center">
           <p className="uppercase font-bold text-sm tracking-widest">
-            Based In 🇳🇱, Amsterdam
+            Based In 🇳🇱, Utrecht
           </p>
           {/* <h1 className="text-[40px] md:text-6xl lg:text-7xl font-bold text-center max-w-5xl leading-tight tracking-wide">
             Quality Design &{" "}
@@ -35,7 +35,7 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <ShinyButton icon={<ChevronRight />}>
-              <Link href="#work">See My Work</Link>
+              <Link href="/#work">See My Work</Link>
             </ShinyButton>
             <a
               href="/resume/CV_en.pdf"

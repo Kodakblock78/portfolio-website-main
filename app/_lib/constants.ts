@@ -48,27 +48,27 @@ export const portfolioProjects = [
 export const tooltipItems = [
   {
     id: 1,
-    name: "Jason Nasinovic",
-    designation: "Great job",
+    name: "Website reviewer",
+    designation: "good color usage",
     image: "/imgs/avatars/bogdan.svg",
   },
   {
     id: 2,
-    name: "Noah Alipour",
-    designation: "Incredibly responsible",
-    image: "/imgs/avatars/djordje.jpeg",
+    name: "Website reviewer",
+    designation: "Incredibly responsive",
+    image: "/imgs/avatars/letter-a-blue.png",
   },
   {
     id: 3,
-    name: "Bassim Louadi",
+    name: "Website reviewer",
     designation: "Great user experience",
-    image: "/imgs/avatars/Anthony.jpg",
+    image: "/imgs/avatars/letter-s-blue.png",
   },
   {
     id: 4,
-    name: "jean deschamps",
+    name: "Website reviewer",
     designation: "Enjoyable experience.",
-    image: "/imgs/avatars/Alex.jpg",
+    image: "/imgs/avatars/letter-h-blue.png",
   },
 ];
 
@@ -76,29 +76,29 @@ export const testimonialItems = [
   {
     id: 1,
     stars: 5,
-    name: "Jason Nasinovic",
-    proffesion: "Studying HAVO at Lingecollege",
+    name: "Unnamed",
+    proffesion: "Co-student",
     description:
-      "“Working with Ezekiel in a team was a very smooth experience from start to finish.  He not only brings strong communicative skills to the team he also has a great sense of attention to detail and commitment, this made a huge difference in our project. He is enthusiastic in  suggesting improvements. Always ready to answer questions or provide  updates. If you're looking for a reliable persom who brings  creativity and efficiency to the table, Ezekiel is the right person!”",
-    image: "/imgs/avatars/Alex.jpg",
+      "“Working with Ezekiel in a team was a very smooth experience from start to finish.  He not only brings strong communicative skills to the team he also has a great sense of attention to detail and commitment, this made a huge difference in our project. He is enthusiastic in  suggesting improvements. Always ready to answer questions or provide  updates. If you're looking for a reliable person who brings  creativity and efficiency to the table, Ezekiel is the right person!”",
+    image: "/imgs/avatars/unknown-person.png",
   },
   {
     id: 2,
     stars: 5,
-    name: "Noah Alipour",
-    proffesion: "striving law student",
+    name: "Unnamed",
+    proffesion: "co-student",
     description:
       "“Ezekiel is an outstanding frontend specialist and presents consistently high level of work. During our work together, he has demonstrated extraordinary skills in simplifying complex ideas into clean, functional, and visually appealing products. His communication is to the point and time management is incredible, even for the most pressing deadlines. I would highly recommend him to any company looking to bring on a frontend developer with strong technical skills and an keen eye for design.”",
-    image: "/imgs/avatars/djordje.jpeg",
+      image: "/imgs/avatars/unknown-person.png",
   },
   {
     id: 3,
     stars: 4,
-    name: "Anthony Sean",
-    proffesion: "Chief Technology Officer at DealJet",
+    name: "Unnamed",
+    proffesion: "Co-student",
     description:
       "“On several occasions, I have had the privilege to work with Andrija, and he has never failed to impress. While he possesses a great level of knowledge in frontend development, what I find most remarkable about him is his obsession with getting every detail right in order to achieve perfection in the end-user experience. He always pays attention to the project requirements, raises up some pertinent issues, and most importantly delivers beyond the call of duty. Andrija is the kind of person who adds value to the team he's in!”",
-    image: "/imgs/avatars/Anthony.jpg",
+      image: "/imgs/avatars/unknown-person.png",
   },
 
 ];
