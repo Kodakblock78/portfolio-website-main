@@ -2,7 +2,7 @@ import Footer from "@/app/_components/Footer";
 import ProjectTechnologiesMini from "@/app/_components/ProjectTechnologiesMini";
 import { Navbar } from "@/app/_components/ui/Navbar";
 import ShinyButton from "@/app/_components/ui/ShinyButton";
-import { portfolioProjects } from "@/app/_lib/constants"; // Ensure this points to where your actual portfolio project data is located
+import { portfolioProjects } from "@/app/_lib/constants";
 import {
   BriefcaseBusiness,
   Code,
@@ -22,13 +22,12 @@ export function generateMetadata({
   params: { projectName: string };
 }) {
   const projectId = params.projectName;
-
-  const project = portfolioProjects.find((project) => project.id === projectId); // Adjust `.id` to match your data
+  const project = portfolioProjects.find((project) => project.id === projectId);
 
   if (!project) return { title: "Not Found" };
 
   return {
-    title: `Project ${project.heading}`, // Replace `project.heading` with the appropriate field for your project title
+    title: `Project ${project.heading}`,
   };
 }
 
@@ -41,8 +40,7 @@ const navItems = [
 
 const ProjectOverview = ({ params }: { params: { projectName: string } }) => {
   const projectId = params.projectName;
-
-  const project = portfolioProjects.find((project) => project.id === projectId); // Adjust `.id` if necessary
+  const project = portfolioProjects.find((project) => project.id === projectId);
 
   if (!project) return notFound();
 
@@ -50,10 +48,10 @@ const ProjectOverview = ({ params }: { params: { projectName: string } }) => {
     heading,
     subheading,
     description,
-    imageUrl,  // Ensure this is the correct property for the image URL in your project data
-    techStack,  // Ensure `techStack` is available in your project data for displaying technologies
-    liveDemoUrl,  // URL to the live demo, make sure this exists in your project data
-    sourceCodeUrl,  // URL to the source code, ensure this is available in your data
+    imageUrl,
+    techStack,
+    liveDemoUrl,
+    sourceCodeUrl,
   } = project;
 
   return (
@@ -81,10 +79,10 @@ const ProjectOverview = ({ params }: { params: { projectName: string } }) => {
 
             <div className="rounded-lg overflow-hidden" id="image">
               <Image
-                src={imageUrl} // Ensure `imageUrl` is correctly set for each project in your data
+                src={imageUrl}
                 width={2000}
                 height={1000}
-                alt="portfolio"  // Replace with more descriptive alt text if desired
+                alt="portfolio"
               />
             </div>
 
@@ -94,26 +92,24 @@ const ProjectOverview = ({ params }: { params: { projectName: string } }) => {
                   Project Overview
                 </h2>
 
-                {/* Display Tech Stack (Ensure ProjectTechnologiesMini receives the correct prop) */}
-                <ProjectTechnologiesMini techStack={techStack} />  {/* Ensure `techStack` exists and is passed correctly */}
+                <ProjectTechnologiesMini techStack={techStack} />
 
                 <div className="flex items-center gap-4 mt-10">
                   <ShinyButton icon={<Globe />} iconPosition="left">
                     <Link href={liveDemoUrl} target="_blank">
-                      View Demo {/* Ensure `liveDemoUrl` is a valid URL in your project data */}
+                      View Demo
                     </Link>
                   </ShinyButton>
 
                   <ShinyButton icon={<Code />} iconPosition="left">
                     <Link href={sourceCodeUrl} target="_blank">
-                      Source Code {/* Ensure `sourceCodeUrl` is a valid URL in your project data */}
+                      Source Code
                     </Link>
                   </ShinyButton>
                 </div>
               </div>
 
-              {/* Project Description */}
-              <p className="flex-1">{description}</p> {/* Ensure `description` is correctly set in your project data */}
+              <p className="flex-1">{description}</p>
             </div>
           </div>
         </div>
