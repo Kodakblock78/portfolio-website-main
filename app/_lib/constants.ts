@@ -50,7 +50,7 @@ export const tooltipItems = [
     id: 1,
     name: "Website reviewer",
     designation: "good color usage",
-    image: "/imgs/avatars/bogdan.svg",
+    image: "/imgs/avatars/bogdan.sv",
   },
   {
     id: 2,
