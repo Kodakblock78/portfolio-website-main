@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { BackgroundBeams } from "./ui/BackgroundBeams";
 import ShinyButton from "./ui/ShinyButton";
+import { portfolioProjects } from "../_lib/constants";
+
 
 const Footer = () => {
   return (
-    
     <div
       className="flex flex-col justify-center antialiased relative border border-dark-300 rounded-xl mb-5"
       id="contact"
@@ -29,9 +30,7 @@ const Footer = () => {
 
         <div className="mt-16 p-10 border-t border-dark-200 dark:border-white/10 flex flex-col md:flex-row justify-between gap-10 md:gap-0">
           <div className="space-y-2.5">
-            <h3 className="text-xl font-bold relative z-10">
-              Ezekiel Forko
-            </h3>
+            <h3 className="text-xl font-bold relative z-10">Ezekiel Forko</h3>
             <p className="text-dark-200/70 dark:text-stone-200/70 relative z-10">
               &copy; 2024 | All rights reserved.
             </p>
@@ -56,15 +55,17 @@ const Footer = () => {
 
             <ul className="space-y-2.5 relative z-10 text-sm sm:text-base">
               <li className="text-lg font-semibold">Projects</li>
+                {portfolioProjects.map((project:any) => (
               <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
-                <Link
-                  href="https://ezes.nl"
-                  target="_blank"
-                >
-                  Ezesshoes
-                </Link>
+                  <Link
+                    key={project.id}
+                    href={`${project.liveDemoUrl}`}
+                    className="block"
+                  >
+                    {project.heading}
+                  </Link>
               </li>
-              
+                ))}
             </ul>
 
             <ul className="space-y-2.5 relative z-10 text-sm sm:text-base">
@@ -83,7 +84,9 @@ const Footer = () => {
                 </Link>
               </li>
               <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
-                <Link href="https://www.instagram.com/ezekiel.wreh/">Instagram</Link>
+                <Link href="https://www.instagram.com/ezekiel.wreh/">
+                  Instagram
+                </Link>
               </li>
             </ul>
           </div>

@@ -35,6 +35,22 @@ export const portfolioProjects = [
     subheading: "a modern e-commerce website",
     description:
       "A modern website based on the fundemantentals of javascript, Html and CSS. To polish my fundemantal knowledge about the subject(this was my first big project so cut me some slack).",
+    imageUrl: "/imgs/projects/p21d682870c353a48afef49666dc5214d.jpg",
+    techStack: [
+      "Javascript",
+      "nextjs",
+      "digitalocean",
+      ""
+    ],
+    liveDemoUrl: "https://roosboard.nl",
+    sourceCodeUrl: "https://github.com/Kodakblock78/portfolio-website-main",
+  },
+  {
+    id: "Roosboard",
+    heading: "Roosboard",
+    subheading: "A browser based digiboard",
+    description:
+      "a browser based digiboard which utilizes localstorage for the creation an dstorage of canvases using digitalocean for deployment originally with a chat featere which i removed due the high consumption of the vp",
     imageUrl: "/imgs/projects/portfolio-mockup-site-real.jpg",
     techStack: [
       "Javascript",
