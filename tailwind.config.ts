@@ -19,7 +19,6 @@ const config: Config = {
     "./work/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    basePath: '/portfolio-website-main',
     screens: {
       sm: "640px",
       md: "768px",
