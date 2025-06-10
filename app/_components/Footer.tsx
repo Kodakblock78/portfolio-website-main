@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { BackgroundBeams } from "./ui/BackgroundBeams";
 import ShinyButton from "./ui/ShinyButton";
+import  { portfolioProjects } from "@/app/_lib/constants";
+
 
 const Footer = () => {
   return (
@@ -56,15 +58,19 @@ const Footer = () => {
 
             <ul className="space-y-2.5 relative z-10 text-sm sm:text-base">
               <li className="text-lg font-semibold">Projects</li>
-              <li className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white">
-                <Link
-                  href="https://ezes.nl"
-                  target="_blank"
+              {portfolioProjects.map((project) => (
+                <li 
+                  key={project.id}
+                  className="text-dark-200/60 hover:text-dark-200 dark:text-white/50 dark:hover:text-white"
                 >
-                  Ezesshoes
-                </Link>
-              </li>
-              
+                  <Link
+                    href={project.liveDemoUrl}
+                    target="_blank"
+                  >
+                    {project.id}
+                  </Link>
+                </li>
+              ))}
             </ul>
 
             <ul className="space-y-2.5 relative z-10 text-sm sm:text-base">
