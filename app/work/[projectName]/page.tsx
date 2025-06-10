@@ -38,6 +38,13 @@ const navItems = [
   { name: "Contact", link: "/#contact", icon: <ContactIcon /> },
 ];
 
+export function generateStaticParams() {
+  return portfolioProjects.map((project) => ({
+    projectName: project.id,
+  }));
+}
+
+
 const ProjectOverview = ({ params }: { params: { projectName: string } }) => {
   const projectId = params.projectName;
   const project = portfolioProjects.find((project) => project.id === projectId);
