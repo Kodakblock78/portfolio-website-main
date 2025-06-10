@@ -42,7 +42,25 @@ export const portfolioProjects = [
     ],
     liveDemoUrl: "http://ezes.nl",
     sourceCodeUrl: "https://github.com/Kodakblock78/website-done-vrijdag/tree/main/html%20website",
+  },
+  {
+    id: "Roosboard",
+    heading: "Roosboard",
+    subheading: "a browser based digiboard",
+    description:
+      "a modern browser based digiboard which utilizes localstorage for storage instead of a DB bc im using a vps and dont want a crazy bill. For that same reason i had a chatroom feauture implented but that would be crazy  ",
+    imageUrl: "/imgs/projects/21d682870c353a48afef49666dc5214d.jpg",
+    techStack: [
+      "Javascript",
+      "next js",
+      "react",
+      "digitalocean",
+      "linux"
+    ],
+    liveDemoUrl: "https://roosboard.nl",
+    sourceCodeUrl: "https://github.com/Kodakblock78/digitalocean_deployment_E_board",
   }
+  
 ];
 
 export const tooltipItems = [
