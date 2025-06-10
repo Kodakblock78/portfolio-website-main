@@ -9,12 +9,24 @@ const {
 
 const config: Config = {
   content: [
+    "./portfolio-website-main/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./views/**/*.{js,ts,jsx,tsx,mdx}",
+    "./layouts/**/*.{js,ts,jsx,tsx,mdx}",
+    "./work/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: "class",
   theme: {
+    basePath: '/portfolio-website-main',
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     extend: {
       colors: {
         primary: {
